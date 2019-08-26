@@ -27,10 +27,10 @@ faces = [(0,1,2,3), (4,5,6,7), (8,9,10,11)]
 edges = []
 
 #Define a malha e o objeto "Plane"
-mymesh = bpy.data.meshes.new("Plane")
+mymesh = bpy.data.meshes.new("Cube")
  
 #Relaciona a malha ao objeto
-myobject = bpy.data.objects.new("Plane", mymesh)
+myobject = bpy.data.objects.new("Cube", mymesh)
 
 #Define a posição do objeto no espaço
 myobject.location = bpy.context.scene.cursor_location # Posição do cursor
