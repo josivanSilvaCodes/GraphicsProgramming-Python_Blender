@@ -19,7 +19,7 @@ verts = [(0,0,0),(0,0,2),(0,-2,2),(0,-2,0)] # Com normal para frente
 # O Array de faces contém uma face em formato Quad
 # A sequencia numerica se refere aos item do array de vertices
 # A ordem define como a face será contruida
-faces = [(0,1,2,3), (4,5,6,7)]
+faces = [(0,1,2,3)]
 
 edges = []
 
