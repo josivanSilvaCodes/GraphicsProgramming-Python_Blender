@@ -44,7 +44,7 @@ edges = myobject.data.edges # pega as edges e coloca na variavel
 print("")
 print("===========================================================")
 print('Verts: ', verts) # imprime a lista/array de vertices
-print('Edges:', edges) 	
+print('Edges:' , edges) 	
 print('Faces: ', faces)
 print("===========================================================")
 print("")
